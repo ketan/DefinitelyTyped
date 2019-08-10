@@ -55,7 +55,7 @@ declare module 'underscore' {
          * Determine if a string is 'blank.'
          * @param str
          */
-        isBlank(str: string): boolean;
+        isBlank(str: string | null | undefined): boolean;
 
         /**
          * Removes all html tags from string.
